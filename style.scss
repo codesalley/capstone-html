@@ -1,0 +1,288 @@
+$primary-color: #fa5757;
+$text-color: #5a5a5a;
+$poppins: "Poppins", sans-serif;
+$lightwhite: #ffffff88;
+$testimony-color-1: #80919a;
+$testimony-color-2: #5488a6;
+$secound-footer-color: #232222;
+$primary-text-color: rgb(240, 236, 236);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $poppins;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  background-color: #ffff;
+}
+
+.main-page-header {
+  background-color: #fa5757;
+}
+
+.logo {
+  width: 60px;
+  height: 50px;
+}
+
+.nav-li-text {
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+}
+
+.instruction-icon i {
+  font-size: 50px;
+}
+
+.nav-item i {
+  color: white;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.cat-heading {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(44, 44, 44);
+}
+
+.search-form {
+  background-color: $lightwhite;
+  padding: 40px;
+
+  h5 {
+    font-size: 16px;
+    line-height: 20px;
+    color: $text-color;
+  }
+
+  div {
+    .btn {
+      color: white;
+      background-color: $primary-color;
+    }
+  }
+}
+
+main {
+  .search-section {
+    height: 70vh;
+    background-image: url(/assets/hero-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .search-section-content {
+      .search-header {
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+      }
+
+      .how-it-works-btn {
+        color: $text-color;
+        background-color: rgb(216, 208, 208);
+        margin: 0 auto;
+      }
+    }
+  }
+  .instruction-section {
+    padding: 40px;
+    .section-header {
+      color: $primary-color;
+      font-weight: 700;
+    }
+
+    .info p {
+      color: $text-color;
+      font-size: 15px;
+      text-align: center;
+      padding: 0 40px;
+    }
+  }
+  .testimony-section {
+    background-color: hotpink;
+    .section-thumnails {
+      width: 200px;
+    }
+    .testimony-card {
+      padding: 30px;
+      .testimony-info {
+        color: white;
+        h5 {
+          font-family: 600;
+          line-height: 20px;
+        }
+        p {
+          font-weight: 300;
+          font-size: 14px;
+          color: $primary-text-color;
+        }
+        .btn {
+          background-color: white;
+          color: $primary-color;
+        }
+      }
+    }
+    .t1 {
+      background-color: $primary-color;
+    }
+
+    .t2 {
+      background-color: $testimony-color-1;
+    }
+    
+    .t3 {
+      background-color: $testimony-color-2;
+    }
+  }
+
+  //   results page style follows
+  .search-filter-group {
+    background-color: rgb(235, 233, 240);
+
+    .search-filter {
+      padding: 20px;
+      .page-heading {
+        font-size: 25px;
+        color: $text-color;
+      }
+      .filter-serach {
+        background-color: #457db4;
+        color: white;
+      }
+      .clear-filter {
+          background-color: #E6AC5C;
+          color: white;
+      }
+    }
+    label {
+      font-weight: 700;
+      color: $text-color;
+      font-size: 15px;
+    }
+  }
+  .card-img-overlay {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h5 {
+      backdrop-filter: blur(5px);
+      color: rgb(255, 255, 255);
+      font-size: 30px;
+      font-weight: 700;
+      //   background-color: yellow;
+    }
+  }
+  .result-card {
+    img {
+      filter: brightness(70%);
+    }
+  }
+  .search-heading {
+    font-size: 30px;
+    color: $text-color;
+  }
+//   detail page style as follow
+.main-results {
+    border: 1px solid grey;
+    .results-heading {
+        font-size: 50px;
+        font-weight: 300;
+        color: $primary-color;
+    }
+    .box-card  {
+        border: 1px solid black;
+        text-align: center;
+    }
+}
+}
+
+footer {
+  .first-footer {
+    background-color: #000000;
+    .footer-nav {
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+      .footer-nav-item {
+        color: white;
+        font-weight: 600;
+      }
+      .middle-icon {
+        color: white;
+        border-radius: 50px;
+        border: 1px solid;
+        width: 70px;
+        height: 70px;
+        left: 50%;
+        border: 1px solid grey;
+        font-size: 60px;
+        padding: 50px;
+        background-color: black;
+      }
+    }
+    .footer-form {
+      h5 {
+        color: white;
+      }
+      button {
+        background-color: grey;
+        color: black;
+        font-weight: 700;
+      }
+      input {
+        background-color: black;
+        border-color: grey;
+      }
+      .contact {
+        p {
+          color: $text-color;
+          line-height: 25px;
+          font-size: 12px;
+          span {
+            color: $primary-color;
+          }
+        }
+      }
+      .about {
+        p {
+          color: $text-color;
+          font-size: 12px;
+          line-height: 25px;
+          span {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+  .last-footer {
+    background-color: $secound-footer-color;
+    .social-icons {
+      color: rgb(128, 125, 125);
+    }
+    .sitemap {
+      color: rgb(128, 125, 125);
+      font-weight: 200;
+      font-size: 12px;
+      span {
+        color: white;
+        font-weight: 400;
+      }
+    }
+  }
+}

@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  background-color: #ffff;
+}
+
+.main-page-header {
+  background-color: #fa5757;
+}
+
+.logo {
+  width: 60px;
+  height: 50px;
+}
+
+.nav-li-text {
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+}
+
+.instruction-icon i {
+  font-size: 50px;
+}
+
+.nav-item i {
+  color: white;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.cat-heading {
+  font-size: 25px;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+
+.search-form {
+  background-color: #ffffff88;
+  padding: 40px;
+}
+
+.search-form h5 {
+  font-size: 16px;
+  line-height: 20px;
+  color: #5a5a5a;
+}
+
+.search-form div .btn {
+  color: white;
+  background-color: #fa5757;
+}
+
+main .search-section {
+  height: 70vh;
+  background-image: url(/assets/hero-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main .search-section .search-section-content .search-header {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+main .search-section .search-section-content .how-it-works-btn {
+  color: #5a5a5a;
+  background-color: #d8d0d0;
+  margin: 0 auto;
+}
+
+main .instruction-section {
+  padding: 40px;
+}
+
+main .instruction-section .section-header {
+  color: #fa5757;
+  font-weight: 700;
+}
+
+main .instruction-section .info p {
+  color: #5a5a5a;
+  font-size: 15px;
+  text-align: center;
+  padding: 0 40px;
+}
+
+main .testimony-section {
+  background-color: hotpink;
+}
+
+main .testimony-section .section-thumnails {
+  width: 200px;
+}
+
+main .testimony-section .testimony-card {
+  padding: 30px;
+}
+
+main .testimony-section .testimony-card .testimony-info {
+  color: white;
+}
+
+main .testimony-section .testimony-card .testimony-info h5 {
+  font-family: 600;
+  line-height: 20px;
+}
+
+main .testimony-section .testimony-card .testimony-info p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #f0ecec;
+}
+
+main .testimony-section .testimony-card .testimony-info .btn {
+  background-color: white;
+  color: #fa5757;
+}
+
+main .testimony-section .t1 {
+  background-color: #fa5757;
+}
+
+main .testimony-section .t2 {
+  background-color: #80919a;
+}
+
+main .testimony-section .t3 {
+  background-color: #5488a6;
+}
+
+main .search-filter-group {
+  background-color: #ebe9f0;
+}
+
+main .search-filter-group .search-filter {
+  padding: 20px;
+}
+
+main .search-filter-group .search-filter .page-heading {
+  font-size: 25px;
+  color: #5a5a5a;
+}
+
+main .search-filter-group .search-filter .filter-serach {
+  background-color: #457db4;
+  color: white;
+}
+
+main .search-filter-group .search-filter .clear-filter {
+  background-color: #E6AC5C;
+  color: white;
+}
+
+main .search-filter-group label {
+  font-weight: 700;
+  color: #5a5a5a;
+  font-size: 15px;
+}
+
+main .card-img-overlay {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .card-img-overlay h5 {
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+main .result-card img {
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+}
+
+main .search-heading {
+  font-size: 30px;
+  color: #5a5a5a;
+}
+
+main .main-results {
+  border: 1px solid grey;
+}
+
+main .main-results .results-heading {
+  font-size: 50px;
+  font-weight: 300;
+  color: #fa5757;
+}
+
+main .main-results .box-card {
+  border: 1px solid black;
+  text-align: center;
+}
+
+footer .first-footer {
+  background-color: #000000;
+}
+
+footer .first-footer .footer-nav {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+footer .first-footer .footer-nav .footer-nav-item {
+  color: white;
+  font-weight: 600;
+}
+
+footer .first-footer .footer-nav .middle-icon {
+  color: white;
+  border-radius: 50px;
+  border: 1px solid;
+  width: 70px;
+  height: 70px;
+  left: 50%;
+  border: 1px solid grey;
+  font-size: 60px;
+  padding: 50px;
+  background-color: black;
+}
+
+footer .first-footer .footer-form h5 {
+  color: white;
+}
+
+footer .first-footer .footer-form button {
+  background-color: grey;
+  color: black;
+  font-weight: 700;
+}
+
+footer .first-footer .footer-form input {
+  background-color: black;
+  border-color: grey;
+}
+
+footer .first-footer .footer-form .contact p {
+  color: #5a5a5a;
+  line-height: 25px;
+  font-size: 12px;
+}
+
+footer .first-footer .footer-form .contact p span {
+  color: #fa5757;
+}
+
+footer .first-footer .footer-form .about p {
+  color: #5a5a5a;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+footer .first-footer .footer-form .about p span {
+  color: #fa5757;
+}
+
+footer .last-footer {
+  background-color: #232222;
+}
+
+footer .last-footer .social-icons {
+  color: #807d7d;
+}
+
+footer .last-footer .sitemap {
+  color: #807d7d;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+footer .last-footer .sitemap span {
+  color: white;
+  font-weight: 400;
+}
